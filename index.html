@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--FONT-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Main CSS-->
+    <link rel = "stylesheet" href = "style.css">
+    <title>Nicholas Teow's Portfolio Website</title>
+</head>
+<body>
+    <!--HEADER DESIGN-->
+    <header class = "header">
+        <a href = '#' class='logo'>Personal Portfolio Website</a>
+
+        <i class="fa-solid fa-bars" id = "menu-icon"></i>
+
+        <nav class = 'navbar'>
+            <a href = '#home' class = 'active'>Home</a>
+            <a href = '#about'>About Me</a>
+            <a href = '#portfolio'>Portfolio</a>
+            <a href = '#contact'>Contact</a>
+        </nav>
+    </header>
+
+    <!--HOME SECTION DESIGN-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, I'm</h3>
+            <h1>Nicholas Teow</h1>
+            <h3>And I major in <span class = "role"></span></h3>
+            <p>at the National University of Singapore, specializing in Financial Analytics.</p>
+            <div class="social-media">
+                <a href = "https://www.instagram.com/nicholasteowww"><i class="fa-brands fa-square-instagram"></i></a>
+                <a href = "https://www.linkedin.com/in/nicholasteow"><i class="fa-brands fa-linkedin"></i></a>
+                <a href = "https://github.com/nicholasteow"><i class="fa-brands fa-github"></i></a>
+                <a href = "mailto:nicholasteow@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            <a href = "documents/Nicholas_Teow_Resume.pdf" download="Nicholas_Teow_Resume.pdf" class = 'btn'>Download Resume</a>
+        </div>
+            
+        <div class = "home-img">
+            <img src = "images/profiledp.png" alt="profile pic">
+        </div>
+    </section>
+
+    <!--ABOUT SECTION DESIGN-->
+    <section class="about" id="about">
+        <div class = "about-img">
+            <img src = "images/aboutdp.png" alt = "about pic">
+        </div>
+
+        <div class = "about-content">
+            <h2 class = "heading">ABOUT <span>ME</span></h2>
+            <h3>BSc in Business Analytics</h3>
+            <p>A little about me ! My hobbies are playing sports and travelling !</p>
+            <p><span>My Techstack: </span>
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+                <i class="fa-brands fa-js"></i>
+                <i class="fa-brands fa-react"></i>
+                <i class="fa-brands fa-vuejs"></i>
+                <i class="fa-solid fa-database"></i>
+                <i class="fa-brands fa-python"></i>
+                <i class="fa-brands fa-java"></i>
+                <i class="fa-brands fa-r-project"></i>
+                <i class="fa-brands fa-docker"></i>
+                <i class="fa-brands fa-node-js"></i>
+            </p>
+            <a href = "documents/Nicholas_Teow_Cover_Letter.pdf" download="Nicholas_Teow_Cover_Letter.pdf" class = "btn">My Cover Letter</a>
+        </div>
+    </section>
+
+    <!--PORTFOLIO SECTION DESIGN-->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">My <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <a href="https://twelfth-man-dbad2.web.app/" target="_blank" rel="noopener noreferrer" class="portfolio-box">
+                <img src="images/TwelfthManLogo.jpg" alt="TwelfthManLogo">
+                <div class="portfolio-layer">
+                    <h4>Twelfth Man</h4>
+                    <p>An all-in-one Football League app with league standings, fixtures, and predictions.</p>
+                    <h2>Click to learn more!</h2>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </a> 
+        
+            <a href="https://github.com/nicholasteow/A-Plus-BT3103" target="_blank" rel="noopener noreferrer" class="portfolio-box">
+                <img src="images/InTurnLogo.jpg" alt="InTurnLogo">
+                <div class="portfolio-layer">
+                    <h4>InTurn</h4>
+                    <p>An all-encompassing platform for sourcing and monitoring internships.</p>
+                    <h2>Click to learn more!</h2>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </a>
+        </div>
+        </section>
+        
+
+    <!--PORTFOLIO SECTION DESIGN-->
+    <section class = "contact" id = "contact">
+        <h2 class = "heading">Contact <span>Me</span></h2>
+
+        <form action = "#">
+            <div class = "input-box">
+                <input type = "text" placeholder = "Full Name">
+                <input type = "email" placeholder = "Email Address">
+            </div>
+
+            <div class = "input-box">
+                <input type = "number" placeholder = "Mobile Number">
+                <input type = "text" placeholder = "Email Subject">
+            </div>
+
+            <textarea name = "" id = "" cols = "30" rows = "10" placeholder="Your Message"></textarea>
+            <input type = "submit" value = "Send Message" class = "btn">
+        </form>
+    </section>
+
+    <!-- SCROLL REVEAL JS -->
+    <script src="https://unpkg.com/scrollreveal@4.0.7/dist/scrollreveal.min.js"></script>
+    <!-- TYPED JS -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- MAIN JS -->
+    <script src="main.js"></script>
+    
+</body>
+</html>
